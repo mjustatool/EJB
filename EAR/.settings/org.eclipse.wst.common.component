@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="G4Serveur.jar" deploy-path="/" handle="module:/resource/G4Serveur/G4Serveur">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="G4WebClient.war" deploy-path="/" handle="module:/resource/G4WebClient/G4WebClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
